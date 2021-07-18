@@ -26,4 +26,10 @@ document.getElementById("hideCreateCardBox").addEventListener("click", () => {
   });
 
 
-  
+  contentArray.forEach(newDiv);
+
+
+  function newDiv(text){
+    let div = document.createElement("div");
+    let h2_question = document.createElement('h2');
+    let h2_answer = document.createElement('h2');  
