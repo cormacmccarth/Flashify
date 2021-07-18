@@ -141,4 +141,28 @@
   }
 
 
+  @media(max-width:1280px){
+    .container{
+      width: 95%;
+    }
+  }
   
+  @media(max-width:768px){
+    .flashcard{
+      margin: auto;
+    }
+  
+    .flashcard{
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media(max-width:480px){
+    .nav{
+      flex-direction: column;
+      align-items: center;
+    }
+
+
+    
