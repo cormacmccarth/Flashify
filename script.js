@@ -69,4 +69,11 @@ addFlashcard = () => {
   }
 
 
+  deleteFlashcards = () => {
+    localStorage.clear();
+    flashcards.innerHTML = '';
+    contentArray = [];
+  }
+
+
   
