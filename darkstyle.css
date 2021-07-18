@@ -66,4 +66,16 @@
   }
 
 
+  .create-card{
+    display: none;
+    width: 370px;
+    margin:auto;
+    padding: 20px;
+    margin-top: 10px;
+    background: black;
+    box-shadow: 0px 2px 4px 0px cyan;
+    color: limegreen;
+  }
+
+
   
