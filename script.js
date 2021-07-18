@@ -61,4 +61,12 @@ addFlashcard = () => {
     }
 
 
-    
+    contentArray.push(flashcard_info);
+    localStorage.setItem('items', JSON.stringify(contentArray));
+    newDiv(contentArray[contentArray.length - 1]);
+    question.value = '';
+    answer.value = '';
+  }
+
+
+  
