@@ -167,3 +167,20 @@
     overflow: hidden;
     
 }
+
+
+.brand{
+  color: black;
+  text-decoration: none;
+}
+
+.content{
+text-align: center;
+}
+
+.btn{
+margin: 10px;
+
+}
+
+
