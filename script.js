@@ -21,3 +21,9 @@ document.getElementById("deleteFlashcards").addEventListener("click", () => {
 });
 
 
+document.getElementById("hideCreateCardBox").addEventListener("click", () => {
+    hideCreateCardBox();
+  });
+
+
+  
