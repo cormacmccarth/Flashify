@@ -10,9 +10,14 @@ document.getElementById("add-flashcard").addEventListener("click", () => {
     addFlashcard();
   });
 
-  
+
   document.getElementById("showCreateCardBox").addEventListener("click", () => {
     showCreateCardBox();
   });
+
+
+document.getElementById("deleteFlashcards").addEventListener("click", () => {
+  deleteFlashcards();
+});
 
 
