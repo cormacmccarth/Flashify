@@ -76,4 +76,8 @@ addFlashcard = () => {
   }
 
 
-  
+  showCreateCardBox = () => {
+    createCard.style.display = "block";
+  }
+
+
