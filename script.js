@@ -9,3 +9,10 @@ let light = document.getElementById("light");
 document.getElementById("add-flashcard").addEventListener("click", () => {
     addFlashcard();
   });
+
+  
+  document.getElementById("showCreateCardBox").addEventListener("click", () => {
+    showCreateCardBox();
+  });
+
+
