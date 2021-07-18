@@ -43,3 +43,12 @@ document.getElementById("hideCreateCardBox").addEventListener("click", () => {
   
     div.appendChild(h2_question);
     div.appendChild(h2_answer);
+
+    div.addEventListener("click", () => {
+        if(h2_answer.style.display == "none")
+          h2_answer.style.display = "block";
+        else
+          h2_answer.style.display = "none";
+      })
+
+      
