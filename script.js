@@ -5,3 +5,7 @@ const answer = document.getElementById("answer");
 let contentArray = localStorage.getItem('items') ? JSON.parse(localStorage.getItem('items')) : [];
 let light = document.getElementById("light");
 
+
+document.getElementById("add-flashcard").addEventListener("click", () => {
+    addFlashcard();
+  });
