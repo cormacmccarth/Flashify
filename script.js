@@ -35,4 +35,11 @@ document.getElementById("hideCreateCardBox").addEventListener("click", () => {
     let h2_answer = document.createElement('h2');  
     div.className = 'flashcard';
 
-    
+    h2_question.setAttribute("style", "border-top:1px solid red; padding: 15px; margin-top:30px");
+    h2_question.innerHTML = text.my_question;
+  
+    h2_answer.setAttribute("style", "text-align:center; display:none; color:blue");
+    h2_answer.innerHTML = text.my_answer;
+  
+    div.appendChild(h2_question);
+    div.appendChild(h2_answer);
