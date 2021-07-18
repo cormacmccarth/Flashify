@@ -34,5 +34,22 @@
   }
 
 
-
+  .container{
+    width: 1280px;
+    margin: auto;
+  }
+  
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    padding: 0 20px;
+    background: white;
+  }
+  
+  .nav button{
+    font-family: inherit;
+    border: 1px solid black;
+  }
   
