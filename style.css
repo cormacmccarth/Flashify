@@ -11,3 +11,11 @@
     font-size: 1rem;
     background: antiquewhite;
   }
+
+  #image-wrapper{
+    background-image: url(assets/library.jpeg);
+  }
+  
+  header{
+    background-color: white;
+  }
