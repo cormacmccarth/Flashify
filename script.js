@@ -91,3 +91,8 @@ addFlashcard = () => {
 }
 
 
+document.getElementById("add-flashcard").addEventListener("click", () => {
+    addFlashcard();
+  });
+
+
