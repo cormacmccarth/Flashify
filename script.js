@@ -81,3 +81,9 @@ addFlashcard = () => {
   }
 
 
+  hideCreateCardBox = () => {
+    createCard.style.display = "none";
+  }
+
+
+  
