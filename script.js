@@ -51,4 +51,6 @@ document.getElementById("hideCreateCardBox").addEventListener("click", () => {
           h2_answer.style.display = "none";
       })
 
-      
+      flashcards.appendChild(div);
+}
+
