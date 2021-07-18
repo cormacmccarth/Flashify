@@ -204,3 +204,21 @@
         overflow: hidden;
         
     }
+
+
+    .brand{
+        color: magenta;
+        text-decoration: none;
+    }
+    
+    .content{
+      text-align: center;
+    }
+    
+    .btn{
+      margin: 10px;
+      
+    }
+
+
+    
