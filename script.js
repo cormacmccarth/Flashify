@@ -54,3 +54,11 @@ document.getElementById("hideCreateCardBox").addEventListener("click", () => {
       flashcards.appendChild(div);
 }
 
+addFlashcard = () => {
+    let flashcard_info = {
+      'my_question' : question.value,
+      'my_answer'  : answer.value
+    }
+
+
+    
