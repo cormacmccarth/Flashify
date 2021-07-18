@@ -91,4 +91,25 @@
   }
 
 
+  #add-flashcard{
+    color: limegreen;
+  }
+
+  #hideCreateCardBox{
+    color: limegreen;
+  }
+
+  #add-flashcard:hover{
+    color: black;
+  }
+
+  #hideCreateCardBox:hover{
+    color: black;
+  }
+
+  #newFlashcard{
+    color:limegreen;
+  }
+
+
   
