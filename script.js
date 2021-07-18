@@ -96,3 +96,10 @@ document.getElementById("add-flashcard").addEventListener("click", () => {
   });
 
 
+  function mode(){
+    if(light.disabled == false){  
+      light.disabled = true;}
+    else{
+      light.disabled = false;
+      }
+    }
