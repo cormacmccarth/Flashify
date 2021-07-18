@@ -188,3 +188,19 @@
         justify-content: center;
         align-items: center;
     }
+
+
+    #popup {
+        width: 50%;
+        height: 50%;
+        background: white;
+        border: 5px solid black;
+        box-shadow: #64686e 0px 0px 3px 3px;
+        -moz-box-shadow: #64686e 0px 0px 3px 3px;
+        -webkit-box-shadow: #64686e 0px 0px 3px 3px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        
+    }
